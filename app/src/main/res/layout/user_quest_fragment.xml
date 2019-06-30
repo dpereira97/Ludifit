@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/outer_quest_box"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:background="#E6E6E6">
+
+        <FrameLayout
+            android:id="@+id/inner_quest_box"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/layout_bg"
+            android:elevation="4dp">
+
+            <ProgressBar
+                android:id="@+id/quest_exp"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="30dp"
+                android:progress="0" />
+
+            <TextView
+                android:id="@+id/quest_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="60dp"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                app:fontFamily="@font/alegreya_sans_medium" />
+
+            <TextView
+                android:id="@+id/quest_progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginRight="70dp"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                app:fontFamily="@font/alegreya_sans_medium" />
+
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

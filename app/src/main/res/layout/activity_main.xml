@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainScreen.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/top_user_frame"
+        android:layout_width="0dp"
+        android:layout_height="132dp"
+        android:background="#FF6600"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/user_quests_frame_scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <ScrollView
+        android:id="@+id/user_quests_frame_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#E6E6E6"
+        app:layout_constraintBottom_toTopOf="@+id/add_quest_frame"
+        app:layout_constraintTop_toBottomOf="@+id/top_user_frame">
+
+        <LinearLayout
+            android:id="@+id/user_quests_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:id="@+id/add_quest_frame"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E6E6E6"
+        app:layout_constraintBottom_toTopOf="@+id/circles_frame"
+        app:layout_constraintTop_toBottomOf="@id/user_quests_frame_scroll">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/circles_frame"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#E6E6E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_quest_frame">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/darker_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@drawable/shape_window_dim"
+        android:elevation="4dp">
+
+        
+        <ProgressBar
+            android:id="@+id/progress_load_user"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

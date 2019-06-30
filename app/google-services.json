@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "590180434924",
+    "firebase_url": "https://ludifit-26288.firebaseio.com",
+    "project_id": "ludifit-26288",
+    "storage_bucket": "ludifit-26288.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590180434924:android:120ddc8b0bce7439",
+        "android_client_info": {
+          "package_name": "com.example.user.ludifit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590180434924-qtpb7j8cs340lsckgt2k05fh57lvgn4s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.ludifit",
+            "certificate_hash": "1d800ce348715b25268d83374abb520393523445"
+          }
+        },
+        {
+          "client_id": "590180434924-t47baj798k13cvtkom1sj5qahpa4ul80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.ludifit",
+            "certificate_hash": "2170ea59d36f8c1e7a090bf2994b796ccba3c4b3"
+          }
+        },
+        {
+          "client_id": "590180434924-7qig1ahoh6d0l9l6e14r27hdfq4i6bqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "YOUR API KEY HERE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590180434924-7qig1ahoh6d0l9l6e14r27hdfq4i6bqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

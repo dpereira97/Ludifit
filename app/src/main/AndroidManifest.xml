@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.ludifit">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainScreen.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreenTheme" />
+
+        <activity
+            android:name=".Profile.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreenTheme">
+
+        </activity>
+
+        <activity
+            android:name=".Social.Social"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreenTheme">
+        </activity>
+
+        <activity
+            android:name=".MainScreen.AddQuestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+        <activity
+            android:name=".MainScreen.QuestCompletePopUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme">
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Authentication.AuthenticationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Profile.AchievementsActivity"
+            android:theme="@style/AppFullScreenTheme"></activity>
+        <service android:name=".MainScreen.StepCountingService"></service>
+
+        <activity android:name=".MainScreen.AchievementPopupActivity"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/AppTheme.CustomTheme"></activity>
+    </application>
+
+</manifest>

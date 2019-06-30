@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/left_circle"
+        android:layout_weight="4.5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|end">
+
+        <Button
+            android:id="@+id/left_button"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/circle_shape_light"
+            android:layout_gravity="center|end" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/center_circle"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/center_button"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/circle_shape"
+            android:layout_gravity="center_horizontal|center" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/right_circle"
+        android:layout_weight="4.5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|start">
+
+        <Button
+            android:id="@+id/right_button"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/circle_shape_light"
+            android:layout_gravity="center|start" />
+
+    </FrameLayout>
+
+</LinearLayout>

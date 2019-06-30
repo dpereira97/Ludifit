@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">LudiFit</string>
+    <string name="top_user_name">Fitness God</string>
+    <string name="user_level">Level 1</string>
+    <string name="exp">Exp</string>
+    <string name="user_image">User image</string>
+    <string name="email">Insert your email</string>
+    <string name="register_btn">Register/Login</string>
+    <string name="agreement">I accept the Licencing Agreement</string>
+    <string name="username">Insert your username</string>
+    <string name="password">Insert your password</string>
+    <string name="cnfpassword">Confirm your password</string>
+    <string name="fullname">Insert your full name</string>
+    <string name="finish_register">End</string>
+    <string name="loginBTN">Login</string>
+    <string name="social_header_text">Multiplayer</string>
+    <string name="img">Logo</string>
+    <string name="editBtn">Edit</string>
+    <string name="imgplayer">player</string>
+    <string name="friends">Friends</string>
+    <string name="level">Level</string>
+    <string name="achievements">Achievements</string>
+    <string name="placeholderAchievements">3</string>
+    <string name="placeholderLevel">1</string>
+    <string name="placeholderfriends">20</string>
+    <string name="addPicture">Add a profile picture (Optional)</string>
+    <string name="add">Add</string>
+    <string name="groups">Groups</string>
+    <string name="check_members">Check members</string>
+    <string name="challenge_group">Challenge group</string>
+    <string name="image_link">Paste the link to an image</string>
+    <string name="account">Don\'t have an account? Create one here.</string>
+</resources>

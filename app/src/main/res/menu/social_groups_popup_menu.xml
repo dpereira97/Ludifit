@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/check_members"
+        android:title="@string/check_members"/>
+
+    <item android:id="@+id/challenge_group"
+        android:title="@string/challenge_group"/>
+</menu>
